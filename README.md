@@ -1,5 +1,7 @@
 # Site-and-App-Separator
 
+To access the Streamlit app: https://site-and-app-separator.streamlit.app/
+
 A Streamlit web application that automatically classifies a mixed list of websites and mobile app identifiers into:
 
 - Website URLs 

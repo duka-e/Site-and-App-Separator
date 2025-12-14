@@ -1,7 +1,7 @@
 # Site-and-App-Separator
 
 - To access the Streamlit app: https://site-and-app-separator.streamlit.app/
-- **To test the tool, please download use the csv file called 'Mixed sites and apps list' in the repo.** 
+- **To test the tool, please download and use the csv file called 'Mixed sites and apps list' in the repo.** 
 
 This is a web application that automatically classifies a mixed list of websites and mobile app identifiers into:
 

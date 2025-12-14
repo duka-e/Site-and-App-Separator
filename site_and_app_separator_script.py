@@ -4,8 +4,7 @@ from io import BytesIO
 
 st.write("A page to be used to separate a mixed list of sites and apps.")
 label = "Please ensure the file you upload has two columns named as Name and Value, respectively."
-type_file = ["csv", "xlsx"]
-uploaded_file = st.file_uploader(label, type=type_file)
+uploaded_file = st.file_uploader(label, type='csv')
 
 if uploaded_file is None:
     st.info("Please upload a file to continue.")

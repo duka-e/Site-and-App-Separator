@@ -12,10 +12,7 @@ if uploaded_file is None:
     st.stop()  
 
 #if uploaded_file is not None:
-if uploaded_file.name.endswith(".csv"):
-    df_file = pd.read_csv(uploaded_file)
-else:
-    df_file = pd.read_excel(uploaded_file)
+df_file = pd.read_csv(uploaded_file)
 
 
 st.write('**********************')
